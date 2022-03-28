@@ -1,0 +1,428 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .logo img{
+    width: 200px;
+    height: 100%;
+}
+header .logo img {
+    width: 200px;
+    height: 100%;
+}
+
+header .menu ul{
+    display: flex;
+}
+header .menu ul li{
+    list-style: none;
+    padding: 0 20px ;
+}
+header .menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.1rem;
+}
+#home .container{
+    width: 100;
+    height: 100vh;
+    background: url(image/background.png)no-repeat;
+    background-size: 100% 100%;
+}
+#home .container .content{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 200px;
+}
+#home .container .content h1{
+    color: aliceblue;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+#home .container .content p{
+    width: 800px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    margin-top: 6opx;
+}
+#home .container .content button{
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: cornflowerblue;
+    border: none;
+    cursor: pointer;
+
+}
+.boi .image .galeria{
+    width: 90px; ;
+    height: 90px; ;
+}
+
+
+#sobre .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(image/back2.jpg)no-repeat;
+}
+
+#sobre .container h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 15px;
+    border: 3px solid #4a75a6;
+    border-radius: 50%;
+    color: #4a75a6;
+
+}
+#sobre .container p{
+    margin-top: 10px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #4a75a6;
+}
+#sobre .container h1{
+margin-top: 60px;
+font-size: 60px;
+font-weight: 400;
+color: #203758;
+
+}
+
+#sobre .container .chamada{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sobre .container .chamada .esquerda,
+#sobre .container .chamada .direita {
+    width: 40%;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: #203758;
+    text-align: justify;
+}
+
+#sobre .container img{
+    width: 400px;
+    height: 350px;
+    padding: 2%;
+
+}
+
+#page .container{
+    width: 100%;
+    height: 100vh;
+    background: url(image/back.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#page .container .esquerda{
+    width: 40%;
+    height: 40vh;
+}
+#page .container .esquerda h2{
+    width: max-content;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: aliceblue;
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+
+
+}
+#page .container .esquerda p{
+    margin-top: 10px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: aliceblue;
+}
+
+#page .container .esquerda h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+#page .container .esquerda span{
+    font-family: tahoma;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: aliceblue;
+}
+#page .container .direita{
+    width: 25%;
+    height: 40vh;
+
+}
+#page .container .direita h3{
+    background: rgba(255,255,255,0.6);
+    color: #203758;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 15px;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+#page .container .direita .box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(203,221,249,0.3);
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+#page .container .direita .box .data {
+    padding: 15px;
+}
+#page .container .direita .box .data span{
+    background: aliceblue;
+    padding: 5px 15px;
+    color: #203758;
+    font-size: 0.9rem;
+}
+#page .container .direita .box .data p{
+    padding: 15px;
+    border: 1px solid aliceblue;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+#page .container .direita .box .info span{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+#page .container .direita .box .info p{
+     color: aliceblue;
+     font-size: 0.9rem;
+     letter-spacing: 5px;
+     margin-top: 10px;
+
+}
+#contato .container{
+    width: 100%;
+    height: 100vh;
+    background: url(image/regia.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+#contato .container .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height: 60vh;
+}
+#contato .container .center h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: 3px solid aliceblue;
+    border-radius: 50%;
+    color: aliceblue;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+     
+}
+#contato .container .center p{
+    margin-top: 10px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: aliceblue;
+}
+#contato .container .center h1{
+    margin-top: 30px;
+    font-size: 3rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+#contato .container .card {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#contato .container .card .box{
+    width: 15%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+#contato .container .card .box img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+#contato .container .card .box h3{
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#contato .container .card .box p{
+    color: aliceblue;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+#contato .container .card .box button{
+    padding: 20px 10px;
+    border: none;
+    background: aliceblue;
+    color: #4a75a6;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background: #203758;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+
+}
+
+footer span{
+    line-height: 60px;
+    color: aliceblue;
+}
+footer a{
+    text-decoration: none;
+    color: #4a75a6;
+
+}
+@media screen and (max-width:1060px){
+    #home .container{
+         background-size: cover;
+    }
+    #home .container .content {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    #home .container .content h1{
+        font-size: 4rem;
+    }
+    #home .container .content p{
+        width: 500px;
+        font-size: 0.9rem;
+        margin-top: 30px;
+    }
+    #home .container .content button{
+        margin-top: 50px;
+       
+    }
+
+    /*sobre */
+
+    #sobre .container h1{
+        margin-top: 20px;
+        font-size: 2.5rem;
+
+    }
+    #sobre .container .chamada{
+        width: 60%;
+    }
+    #sobre .container .chamada .esquerda,
+    #sobre .container .chamada .direita{
+        font-size: 0.9rem;
+    }
+    #page .container{
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #page .container .esquerda{
+        width: 80%;
+        display: block;
+        margin-top: 30px;  
+    }
+    #page .container .esquerda h2{
+        margin: 0 auto;
+    }
+    #page .container .esquerda p{
+        text-align: center;
+    }
+    #page .container .esquerda h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    #page .container .esquerda span{
+        font: 0.8rem;
+        text-align: justify;
+    }
+    #page .container .direita{
+        width: 40%;
+        height: 50vh;
+    }
+    #page .container .direita h3{
+        text-align: center;
+    }
+    #page .container .direita .box{
+        background: rgba(14,27,46,0.6);
+    }
+    #page .container .direita .data span{
+        font-size: 00.8rem;
+    }
+    #page .container .direita .data p{
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+    #page .container .direita .box .info span{
+        font-size: 0.9rem;
+    }
+}
